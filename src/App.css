@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.baseTab{
+  width: 200px;
+  border-right: 1px solid black !important;
+  cursor: pointer !important;
+}
+
+.baseTab:hover{
+  background-color: black !important;
+  color: white !important;
+}
+
+.activetab{ /*para el que esta selecionado*/
+  background-color: black !important;
+  color: white !important;
+}
+.container{
+  text-align: left;
+}
+NavLink{
+  color: black;
+}
